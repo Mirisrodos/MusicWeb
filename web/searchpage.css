@@ -1,0 +1,247 @@
+.main-scroll{
+    border-radius: 10px;
+    margin-top: 60px !important;
+    margin-inline: 8px;
+}
+
+.main-scroll .search-result{
+    width: 92%;
+    margin: auto;
+    display: flex;
+}
+
+.main-scroll .search-result .searched-list{
+    width: 50%;
+}
+
+.main-scroll .search-result .no1search{
+    margin-right: 10px;
+    background-color: #111727;
+    width: 45%;
+    margin-top:30px;
+    padding: 18px;
+    border-radius: 15px;
+    position: relative;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.main-scroll .search-result .no1search:hover{
+    background-color: #1f2940;
+}
+
+.main-scroll .search-result .no1search h1{
+    font-size: 30px;
+    margin-block: 10px;
+}
+
+.main-scroll .search-result .no1search .song-info .singer-name{
+    font-size: 13px;
+    opacity: 0.8;
+    margin-right: 10px;
+}
+
+.main-scroll .search-result .no1search .song-info .type{
+    padding: 3px 8px;
+    background-color: black;
+    font-size: 13px;
+    border-radius: 30px;
+}
+
+.search-result .no1search .song-image img{
+    width: 92px;
+    border-radius: 5px;
+    
+}
+
+.main-scroll .search-result .no1search .play-btn{
+    width: 50px;
+    height: 50px;
+    background-color: #36e3ec;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    opacity: 0;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border:none;
+}
+
+.main-scroll .search-result .no1search:hover .play-btn{
+    bottom: 8%;
+    opacity: 1;
+}
+
+
+
+
+.main-scroll .search-result .no1search h2{
+    margin-bottom: 20px;
+}
+
+.search-result .searched-list{
+    margin-top: 30px;
+    margin-left: 20px
+}
+
+.search-result .searched-list ul li{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-result .searched-list ul li:hover{
+    background-color: #2a3553;
+}
+
+.search-result .searched-list ul li .song-info{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.search-result .searched-list ul li .song-info .detail{
+    margin-left: 15px;
+}
+
+.search-result .searched-list ul li .song-info .detail p{
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.search-result .searched-list .song-info img{
+    width: 40px;
+    height: 40px;
+}
+
+.search-result .searched-list .song-info .play-btn{
+    position: absolute;
+    top: 46%;
+    left: 0%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.442);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+ 
+}
+
+.search-result .searched-list .last-info{
+    display: flex;
+    align-items: center;
+    
+}
+
+.search-result .searched-list .last-info .heart-btn,
+.search-result .searched-list .last-info .three-btn{
+    background-color: transparent;
+    border: none;
+    opacity: 0;
+}
+
+.search-result .searched-list .last-info span{
+    margin-left: 40px;
+    margin-right: 13px;
+    font-size: 14px;
+}
+
+.search-result .searched-list .last-info .heart-btn svg{
+    fill: white;
+    width: 15px;
+ 
+}
+
+.search-result .searched-list .last-info .three-btn svg{
+    fill: white;
+    width: 20px;
+}
+
+.search-result .searched-list ul li:hover .heart-btn,
+.search-result .searched-list ul li:hover .three-btn,
+.search-result .searched-list ul li:hover .song-info .play-btn{
+    opacity: 1;
+}
+
+
+.main-scroll .searched-album{
+    width: 92%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-block: 30px;
+}
+
+.main-scroll .searched-album .row{
+    display: flex;
+}
+
+.main-scroll .searched-album .row .col{
+    width: 24%;
+    margin-inline: 10px;
+    padding: 15px;
+    background-color:#1b253e;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.main-scroll .searched-album .row .col img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.main-scroll .searched-album .row .col .album-info{
+    margin-top: 10px;
+}
+
+.main-scroll .searched-album .row .col .album-info h2{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.main-scroll .searched-album .row .col .album-info p{
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.main-scroll .searched-album .row .col .play-btn{
+    width: 50px;
+    height: 50px;
+    background-color: #36e3ec;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 30%;
+    right: 11%;
+    opacity: 0;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border:none;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.main-scroll .searched-album .row .col:hover{
+    background-color:#27324e;
+}
+
+.main-scroll .searched-album .row .col:hover .play-btn{
+    bottom: 33%;
+    opacity: 1;
+}
+
+header .song_side::before{
+    background:none;
+}
+

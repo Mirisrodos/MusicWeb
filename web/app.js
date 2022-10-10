@@ -358,11 +358,9 @@ $(document).ready(function () {
 
   const menuLinkListEvent = () => {
     menuLinkList.each((index,item) => {
-  
         item.addEventListener("click", () => {
             if(item !== activeLink){
                 item.classList.add("active")
-                
                 activeLink.classList.remove("active")
                 activeLink = item
                 
@@ -384,9 +382,10 @@ $(document).ready(function () {
     addEventForPlayBar();
     addEventForVolume();
     backAndNextButtonEvent();
+    menuLinkListEvent();
     songCarouselEvent();
     artCarouselEvent();
-    menuLinkListEvent();
+   
   };
 
   main();

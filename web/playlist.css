@@ -1,0 +1,229 @@
+.main-scroll {
+    background: linear-gradient(rgb(192, 168, 96) 30%, #121212 70%);
+    border-radius: 10px;
+    margin-top: 60px !important;
+    margin-inline: 8px;
+}
+
+.main-scroll .playlist-content {
+    width: 90%;
+    margin: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.main-scroll .playlist-content img {
+    width: 232px;
+}
+
+.main-scroll .playlist-content .info {
+    margin-left: 20px;
+}
+
+.main-scroll .playlist-content .info h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.main-scroll .playlist-content .info a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.main-scroll .option-buttons {
+    display: flex;
+    margin: 30px;
+    padding: 24px 32px;
+}
+
+.main-scroll .option-buttons button {
+    background-color: transparent;
+    border: none;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.main-scroll .option-buttons .play-btn {
+    width: 55px;
+    height: 55px;
+    background-color: #1ED760;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-scroll .option-buttons .heart-btn svg,
+.main-scroll .option-buttons .three-btn svg {
+    fill: white;
+    opacity: 0.7;
+}
+
+.main-scroll .option-buttons .heart-btn svg:hover,
+.main-scroll .option-buttons .three-btn svg:hover {
+    opacity: 1;
+}
+
+header .song_side::before {
+    background: none;
+}
+
+/*  */
+header .music-list table {
+    width: 90%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+header .music-list th {
+    font-size: 12px;
+    padding: 0px 0px 10px 10px;
+    color: #b3b3b3;
+}
+
+header .music-list td {
+    font-size: 14px;
+    height: 70px;
+    padding: 0px 0px 0px 10px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+}
+
+header .music-list td img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+header .music-list .headersong {
+    display: flex;
+    align-items: center;
+}
+
+header .music-list tr:hover {
+    background-color: hsla(0, 0%, 100%, .3);
+    cursor: pointer;
+}
+
+header .music-list table,
+th,
+td {
+    border-bottom: 1px solid hsla(0, 0%, 100%, .1);
+}
+
+/*  */
+
+header .music-search {
+    margin: 24px 0px;
+    padding: 24px 30px;
+}
+
+header .music-search h1 {
+    font-size: 24px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+}
+
+header .music-search .search {
+    width: 40%;
+    margin-top: 15px;
+    padding: 1px 10px;
+    border-radius: 20px;
+    background-color: hsla(0, 0%, 100%, .1);
+    border-radius: 7px;
+}
+
+header .music-search .search .bi {
+    font-size: 17px;
+    color: hsla(0, 0%, 100%, .7);
+    line-height: 20px;
+}
+
+header .music-search .search input {
+    border: none;
+    outline: none;
+    background: none;
+    margin-top: 1px;
+    height: auto;
+    width: 90%;
+    /* opacity: 1; */
+    padding: 8px 10px;
+    color: #fff;
+    text-overflow: ellipsis;
+}
+
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+/*  */
+header .rec-pl table {
+    margin-top: 23px;
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+header .rec-pl p {
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    color: #b3b3b3;
+}
+
+header .rec-pl {
+    margin: 24px 0px;
+    padding: 24px 30px;
+}
+
+header .rec-pl h1 {
+    margin-bottom: 13px;
+    font-size: 20px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+}
+
+header .rec-pl td {
+    font-size: 14px;
+    height: 70px;
+    padding: 0px 0px 0px 10px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+}
+
+header .rec-pl td img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+header .rec-pl .headersong {
+    display: flex;
+    align-items: center;
+}
+
+header .rec-pl tr:hover {
+    background-color: hsla(0, 0%, 100%, .3);
+    cursor: pointer;
+}
+
+header .rec-pl table,
+th,
+td {
+    border-bottom: 1px solid hsla(0, 0%, 100%, .1);
+}
+
+header .rec-pl table input {
+    border: 1px solid white;
+    border-radius: 10px;
+    background: none;
+    margin-top: 1px;
+    height: auto;
+    opacity: 1;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+header .rec-pl table input:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}

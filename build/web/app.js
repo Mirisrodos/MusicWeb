@@ -333,3 +333,8 @@ pop_art_right.addEventListener('click', () => {
 pop_art_left.addEventListener('click', () => {
     item.scrollLeft += -330;
 });
+
+document.querySelector(".last-listening").addEventListener('click', () => {
+    
+   
+})

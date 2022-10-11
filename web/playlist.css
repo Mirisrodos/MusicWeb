@@ -1,5 +1,5 @@
 .main-scroll {
-    background: linear-gradient(rgb(192, 168, 96) 30%, #121212 70%);
+    background: linear-gradient(rgb(192, 168, 96) 10%, #121212 90%);
     border-radius: 10px;
     margin-top: 60px !important;
     margin-inline: 8px;
@@ -102,15 +102,39 @@ header .music-list .headersong {
     align-items: center;
 }
 
-header .music-list tr:hover {
+header .music-list tr:hover a {
+    color: #ffffff;
+    transition: 0.1s linear;
+}
+
+header .music-list tr:hover td {
     background-color: hsla(0, 0%, 100%, .3);
-    cursor: pointer;
+    transition: 0.1s linear;
 }
 
 header .music-list table,
 th,
 td {
     border-bottom: 1px solid hsla(0, 0%, 100%, .1);
+}
+
+header .music-list p {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+header .music-list a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+header .music-list a:hover {
+    text-decoration: underline;
+}
+
+header .music-list .bi {
+    font-size: 20px;
 }
 
 /*  */
@@ -153,7 +177,7 @@ header .music-search .search input {
     text-overflow: ellipsis;
 }
 
-::placeholder{
+::placeholder {
     color: white;
     opacity: 1;
 }
@@ -164,10 +188,6 @@ header .rec-pl table {
     width: 100%;
     border-collapse: collapse;
     text-align: left;
-}
-header .rec-pl p {
-    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
-    color: #b3b3b3;
 }
 
 header .rec-pl {
@@ -201,7 +221,12 @@ header .rec-pl .headersong {
 
 header .rec-pl tr:hover {
     background-color: hsla(0, 0%, 100%, .3);
-    cursor: pointer;
+    transition: 0.1s linear;
+}
+
+header .rec-pl tr:hover a {
+    color: #ffffff;
+    transition: 0.2s linear;
 }
 
 header .rec-pl table,
@@ -222,9 +247,25 @@ header .rec-pl table input {
     font-weight: bold;
     box-sizing: border-box;
 }
+
 header .rec-pl table input:hover {
     color: black;
     background-color: white;
     border: 1px solid black;
     cursor: pointer;
+}
+
+header .rec-pl p {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+header .rec-pl a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+header .rec-pl a:hover {
+    text-decoration: underline;
 }

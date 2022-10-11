@@ -237,12 +237,12 @@ td {
 
 header .rec-pl table input {
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 20px;
     background: none;
     margin-top: 1px;
     height: auto;
     opacity: 1;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 15px 10px 15px;
     color: #fff;
     font-weight: bold;
     box-sizing: border-box;
@@ -268,4 +268,12 @@ header .rec-pl a {
 
 header .rec-pl a:hover {
     text-decoration: underline;
+}
+
+header .rec-pl .rec-text {
+    color: #b3b3b3;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+
 }

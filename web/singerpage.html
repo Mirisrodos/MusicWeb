@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="singerpage.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <title>Music Website</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu_side">
+      <h1>
+        <a>My <span>Music</span></a>
+      </h1>
+
+      <div class="playlist">
+        <h4 class="active menu_link">
+          <span></span><i class="bi bi-music-note-beamed"></i>Playlist
+        </h4>
+        <h4 class="menu_link">
+          <span></span><i class="bi bi-music-note-beamed"></i>Last Listening
+        </h4>
+        <h4 class="menu_link">
+          <span></span><i class="bi bi-music-note-beamed"></i>Recommend
+        </h4>
+      </div>
+      <div class="menu_song">
+        <li class="songItem">
+          <span>01</span>
+          <img src="img/1.jpg" alt="" />
+          <h5>
+            On My Way <br />
+            <div class="subtitle">Alen Walker</div>
+          </h5>
+          <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+        </li>
+        <li class="songItem">
+          <span>02</span>
+          <img src="img/2.jpg" alt="" />
+          <h5>
+            On My Way <br />
+            <div class="subtitle">Alen Walker</div>
+          </h5>
+          <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+        </li>
+        <li class="songItem">
+          <span>03</span>
+          <img src="img/2.jpg" alt="" />
+          <h5>
+            On My Way <br />
+            <div class="subtitle">Alen Walker</div>
+          </h5>
+          <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+        </li>
+        <li class="songItem">
+          <span>04</span>
+          <img src="img/2.jpg" alt="" />
+          <h5>
+            On My Way <br />
+            <div class="subtitle">Alen Walker</div>
+          </h5>
+          <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+        </li>
+        <li class="songItem">
+          <span>05</span>
+          <img src="img/2.jpg" alt="" />
+          <h5>
+            On My Way <br />
+            <div class="subtitle">Alen Walker</div>
+          </h5>
+          <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+        </li>
+        <li class="songItem">
+          <span>06</span>
+          <img src="img/2.jpg" alt="" />
+          <h5>
+            On My Way <br />
+            <div class="subtitle">Alen Walker</div>
+          </h5>
+          <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+        </li>
+        <li class="songItem">
+          <span>07</span>
+          <img src="img/2.jpg" alt="" />
+          <h5>
+            On My Way <br />
+            <div class="subtitle">Alen Walker</div>
+          </h5>
+          <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+        </li>
+        <li class="songItem">
+          <span>08</span>
+          <img src="img/2.jpg" alt="" />
+          <h5>
+            On My Way <br />
+            <div class="subtitle">Alen Walker</div>
+          </h5>
+          <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+        </li>
+      </div>
+    </div>
+    <div class="song_side">
+      <nav>
+        <ul>
+          <li>Discover <span></span></li>
+          <li>My Library</li>
+          <li>Radio</li>
+        </ul>
+        <div class="search">
+          <i class="bi bi-search"></i>
+          <input type="text" placeholder="Search Music..." />
+        </div>
+        <div class="user">
+          <img src="img/KDS CODER.png" alt="" />
+        </div>
+      </nav>
+      <div class="main-scroll">
+        <div class="singer-content">
+          <img src="img/22.jpg">
+          <div class="info">
+            <div>
+              <i class="bi bi-check-circle-fill"></i>
+              <span>Nghệ sĩ được xác minh</span>
+            </div>
+            <h1>Hà Anh Tuấn</h1>
+            <div>256.687 người nghe hằng tháng</div>
+          </div>
+        </div>
+
+        <div class="option-buttons">
+          <button class="play-btn">
+            <svg role="img" height="28" width="28" viewBox="0 0 24 24" class="Svg-ytk21e-0 jAKAlG">
+              <path
+                d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z">
+              </path>
+            </svg>
+          </button>
+          <button class="follow">
+            <div>Đang theo dõi</div>
+          </button>
+          <button class="three-btn">
+            <svg role="img" height="32" width="32" viewBox="0 0 24 24" class="Svg-ytk21e-0 jAKAlG">
+              <path
+                d="M4.5 13.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm15 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm-7.5 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z">
+              </path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="music-list">
+          <div class="label-list">Phổ biến</div>
+          <table>
+            <tr>
+              <td class="numbers">1</td>
+              <td class="headersong">
+                <img src="img/2.jpg" alt="">
+                <div>
+                  <p>Tháng Mấy Em Nhớ Anh?</p>
+                </div>
+              </td>
+              <td>7.637.690</td>
+              <td class="favorite"><i class="bi bi-heart"></i></td>
+              <td>3:32</td>
+              <td class="menu"><i class="bi bi-three-dots"></i></td>
+            </tr>
+
+            <tr>
+              <td class="numbers">2</td>
+              <td class="headersong">
+                <img src="img/2.jpg" alt="">
+                <div>
+                  <p>Tháng Tư Lời Nói Dối Của Em</p>
+                </div>
+              </td>
+              <td>7.637.690</td>
+              <td class="favorite"><i class="bi bi-heart"></i></td>
+              <td>3:32</td>
+              <td class="menu"><i class="bi bi-three-dots"></i></td>
+            </tr>
+
+            <tr>
+              <td class="numbers">3</td>
+              <td class="headersong">
+                <img src="img/2.jpg" alt="">
+                <div>
+                  <p>Người Tình Mùa Đông</p>
+                </div>
+              </td>
+              <td>7.637.690</td>
+              <td class="favorite"><i class="bi bi-heart"></i></td>
+              <td>3:32</td>
+              <td class="menu"><i class="bi bi-three-dots"></i></td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="music-search">
+          <h1>Hãy tìm nội dung cho danh sách phát của bạn!</h1>
+          <div class="search">
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="Tìm bài hát hoặc ALBUM" />
+          </div>
+        </div>
+
+        <div class="rec-pl">
+          <h1>ĐỀ XUẤT</h1>
+          <P>Dựa trên nội dung có trong danh sách phát này</P>
+          <table>
+            <tr>
+              <td class="headersong">
+                <img src="img/3.jpg" alt="">
+                <div>
+                  <p>On&On</p>
+                  <p>Cartoon</p>
+                </div>
+              </td>
+              <td>Animu</td>
+              <td>
+                <input type="button" value="Thêm">
+              </td>
+            </tr>
+            <tr>
+              <td class="headersong">
+                <img src="img/4.jpg" alt="">
+                <div>
+                  <p>Mortals</p>
+                  <p>Warriyo</p>
+                </div>
+              </td>
+              <td>Darkness</td>
+              <td>
+                <input type="button" value="Thêm">
+              </td>
+            </tr>
+
+            <tr>
+              <td class="headersong">
+                <img src="img/6.jpg" alt="">
+                <div>
+                  <p>Electronic Music</p>
+                  <p>Electro</p>
+                </div>
+              </td>
+              <td>Atomic</td>
+              <td>
+                <input type="button" value="Thêm">
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="master_play">
+      <div class="song_detail">
+        <div class="wave" id="wave">
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+          <div class="wave1"></div>
+        </div>
+        <!-- Icon kế bên wave nhưng không có ảnh được thay bằng border trắng -->
+        <img src="#" alt="" id="poster_master_play" />
+        <h5 id="title">
+          Vande mataram
+          <div class="subtitle">Bankim Chandra</div>
+        </h5>
+      </div>
+      <div class="player">
+        <div class="icon">
+          <i class="bi Shuffle bi-music-note-beamed">next</i>
+          <i class="bi bi-skip-start-fill" id="back"></i>
+          <i class="bi bi-play-fill" id="masterPlay"></i>
+          <i class="bi bi-skip-end-fill" id="next"></i>
+          <i class="bi bi-cloud-arrow-down-fill" id="download_music"></i>
+        </div>
+        <div class="player-bar">
+          <span id="currentStart">0:00</span>
+          <div class="bar">
+            <input type="range" id="seek" min="0" max="100" />
+            <div class="bar2" id="bar2"></div>
+            <div class="dot"></div>
+          </div>
+          <span id="currentEnd">0:30</span>
+        </div>
+      </div>
+      <div class="vol">
+        <i class="bi bi-volume-up-fill" id="vol_icon"></i>
+        <input type="range" min="0" max="100" id="vol" />
+        <div class="vol_bar"></div>
+        <div class="dot" id="vol_dot"></div>
+      </div>
+    </div>
+  </header>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -53,9 +53,12 @@ header .menu_side h1 {
     font-size: 25px;
     margin: 15px 0px 0px 20px;
     font-weight: 500;
+    
 }
 header .menu_side h1 a{
     font-weight: bold;
+    text-decoration: none !important;
+    color: white;
 }
 
 header .menu_side h1 a span{
@@ -138,17 +141,25 @@ header .menu_side .menu_song li{
     align-items: center;
     margin-bottom: 10px;
     cursor: pointer;
-    transition: .3s linear;
+    transition: .2s linear;
+}
+
+header .menu_side .menu_song li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 header .menu_side .menu_song li:hover{
     background: rgb(105, 105, 105, .1);
 }
 
-header .menu_side .menu_song li span{
+header .menu_side .menu_song li a span{
     font-size: 15px;
     font-weight: 600;
     color: #4c5262;
+    text-decoration: none;
 }
 
 header .menu_side .menu_song li img{
@@ -158,7 +169,7 @@ header .menu_side .menu_song li img{
     border-radius: 5px;
 }
 
-header .menu_side .menu_song li h5{
+header .menu_side .menu_song li a h5{
     font-size: 11px;
     margin-left: 15px;
     width: 170px;
@@ -166,9 +177,10 @@ header .menu_side .menu_song li h5{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    color: white;
 }
 
-header .menu_side .menu_song li h5 .subtitle{
+header .menu_side .menu_song li a h5 .subtitle{
     font-size: 9px;
     color: #4c5262;
 }

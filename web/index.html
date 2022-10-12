@@ -16,7 +16,7 @@
   <header>
     <div class="menu_side">
       <h1>
-        <a>My <span>Music</span></a>
+        <a href="">My <span>Music</span></a>
       </h1>
 
       <div class="playlist">
@@ -32,75 +32,91 @@
       </div>
       <div class="menu_song">
         <li class="songItem">
-          <span>01</span>
-          <img src="img/1.jpg" alt="" />
-          <h5>
-            On My Way <br />
-            <div class="subtitle">Alen Walker</div>
-          </h5>
+          <a href="songdetail">
+            <span>01</span>
+            <img src="img/1.jpg" alt="" />
+            <h5>
+              On My Way <br />
+              <div class="subtitle">Alen Walker</div>
+            </h5>
+          </a>
           <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
         </li>
         <li class="songItem">
+          <a href="songdetail" >
           <span>02</span>
           <img src="img/2.jpg" alt="" />
           <h5>
             On My Way <br />
             <div class="subtitle">Alen Walker</div>
           </h5>
+          </a>
           <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
         </li>
         <li class="songItem">
+          <a href="songdetail" >
           <span>03</span>
           <img src="img/2.jpg" alt="" />
           <h5>
             On My Way <br />
             <div class="subtitle">Alen Walker</div>
           </h5>
+          </a>
           <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
         </li>
         <li class="songItem">
+          <a href="songdetail" >
           <span>04</span>
           <img src="img/2.jpg" alt="" />
           <h5>
             On My Way <br />
             <div class="subtitle">Alen Walker</div>
           </h5>
+          </a>
           <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
         </li>
         <li class="songItem">
+          <a href="songdetail" >
           <span>05</span>
           <img src="img/2.jpg" alt="" />
           <h5>
             On My Way <br />
             <div class="subtitle">Alen Walker</div>
           </h5>
+          </a>
           <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
         </li>
         <li class="songItem">
+          <a href="songdetail" >
           <span>06</span>
           <img src="img/2.jpg" alt="" />
           <h5>
             On My Way <br />
             <div class="subtitle">Alen Walker</div>
           </h5>
+          </a>
           <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
         </li>
         <li class="songItem">
+          <a href="songdetail" >
           <span>07</span>
           <img src="img/2.jpg" alt="" />
           <h5>
             On My Way <br />
             <div class="subtitle">Alen Walker</div>
           </h5>
+          </a>
           <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
         </li>
         <li class="songItem">
+          <a href="songdetail" >
           <span>08</span>
           <img src="img/2.jpg" alt="" />
           <h5>
             On My Way <br />
             <div class="subtitle">Alen Walker</div>
           </h5>
+          </a>
           <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
         </li>
       </div>
@@ -112,10 +128,11 @@
           <li>My Library</li>
           <li>Radio</li>
         </ul>
-        <div class="search">
+        <form method="get" class="search" action="searchpage">
           <i class="bi bi-search"></i>
-          <input type="text" placeholder="Search Music..." />
-        </div>
+          <input name="input" type="text" placeholder="Search Music..." />
+          <button style="display:none" type="submit">Search</button>
+        </form>
         <div class="user">
           <img src="img/KDS CODER.png" alt="" />
         </div>

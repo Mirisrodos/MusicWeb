@@ -1,0 +1,73 @@
+.main-scroll {
+    background: linear-gradient(#36e3ec94 20%, black 80%);
+    border-radius: 10px;
+    margin-top: 60px !important;
+    margin-inline: 8px;
+}
+
+.main-scroll .music_info {
+    width: 90%;
+    margin: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.main-scroll .music_info img {
+    width: 232px;
+}
+
+.main-scroll .music_info .info {
+    margin-left: 20px;
+}
+
+.main-scroll .music_info .info h1 {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.main-scroll .music_info .info a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.main-scroll .option-buttons {
+    display: flex;
+    margin: 30px;
+}
+
+.main-scroll .option-buttons button {
+    background-color: transparent;
+    border: none;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.main-scroll .option-buttons .play-btn {
+    width: 55px;
+    height: 55px;
+    background-color: #36e3ec;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-scroll .option-buttons .heart-btn svg,
+.main-scroll .option-buttons .three-btn svg {
+    fill: white;
+    opacity: 0.7;
+}
+
+.main-scroll .option-buttons .heart-btn svg:hover,
+.main-scroll .option-buttons .three-btn svg:hover {
+    opacity: 1;
+}
+
+.popular_song {
+    width: 95% !important;
+}
+
+header .song_side::before {
+    background: none;
+}

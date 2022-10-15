@@ -69,7 +69,7 @@ header .song_side::before {
     background: none;
 }
 
-/*  */
+  
 header .music-list table {
     width: 90%;
     border-collapse: collapse;
@@ -127,6 +127,7 @@ header .music-list p {
 header .music-list a {
     text-decoration: none;
     color: #b3b3b3;
+    font-size: 13px;
 }
 
 header .music-list a:hover {
@@ -137,7 +138,7 @@ header .music-list .bi {
     font-size: 20px;
 }
 
-/*  */
+  
 
 header .music-search {
     margin: 24px 0px;
@@ -171,7 +172,7 @@ header .music-search .search input {
     margin-top: 1px;
     height: auto;
     width: 90%;
-    /* opacity: 1; */
+     opacity: 1; 
     padding: 8px 10px;
     color: #fff;
     text-overflow: ellipsis;
@@ -182,7 +183,7 @@ header .music-search .search input {
     opacity: 1;
 }
 
-/*  */
+  
 header .rec-pl table {
     margin-top: 23px;
     width: 100%;

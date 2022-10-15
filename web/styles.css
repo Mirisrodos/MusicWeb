@@ -469,6 +469,7 @@ header .master_play .vol .dot::before{
     box-shadow: inset 0px 0px 3px #36e2ec;
 }
 
+/*  */
 header .song_side {
     z-index: 2;
     position: relative;
@@ -489,7 +490,7 @@ header .song_side .main-scroll::-webkit-scrollbar-thumb {
     border-radius: 30px;
 }
 
-header .song_side::before{ /*Hòa -1 dòng*/
+header .song_side::before{ 
     content: '';
     position: absolute;
     width: 100%;

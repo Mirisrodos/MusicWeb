@@ -1,0 +1,117 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(161, 161, 161, 0.44);
+    width: 100%;
+}
+
+.header a{
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+}
+
+.header a span{
+    color:#36e2ec;
+}
+
+.login-body{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.login-body h1{
+    color:#36e2ec;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.login-body form{
+    width: 100%;
+    
+}
+
+.login-body form .username-part,
+.login-body form .password-part{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 16px;
+}
+
+.login-body form .username-part span,
+.login-body form .password-part span{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.login-body form .username-part input,
+.login-body form .password-part input{
+    padding: 14px;
+    width: 100%;
+    font-size:14px;
+}
+
+.login-body form .bottom-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-body form .bottom-part p{
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+
+.login-body form .bottom-part .function-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-body form .bottom-part .function-bottom span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-body form .bottom-part .function-bottom span input{
+    width: 18px;
+    height: 18px;
+}
+
+.login-body form .bottom-part .function-bottom span label{
+    padding-inline: 10px;
+    font-size: 14px;
+}
+
+.login-body form .bottom-part .function-bottom button{
+    padding: 14px 32px;
+    border: none;
+    border-radius: 32px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #36e2ec;
+    color: white;
+}
+
+.login-body form .bottom-part .function-bottom button:hover{
+    transform: scale(1.05);
+}

@@ -582,10 +582,34 @@ header .song_side nav .search input {
 
 header .song_side nav .user {
     position: relative;
-    width: 40px;
-    height: 40px;
+
     /* border: 1px solid #fff; */
     border-radius: 50%;
+}
+
+header .song_side nav .user span{
+    display: flex;
+    font-size: 18px;
+}
+
+header .song_side nav .user span a {
+    font-size: inherit;
+    color:white;
+    margin-inline: 10px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+header .song_side nav .user span .login{
+    color: #36e2ec;
+}
+
+header .song_side nav .user span .login:hover{
+    color: white;
+}
+
+header .song_side nav .user span .register:hover{
+    opacity: 0.8;
 }
 
 header .song_side nav .user img {

@@ -79,6 +79,10 @@ header .menu_side .playlist h4{
     align-items: center;
     transition: .3s linear;
 }
+header .menu_side .playlist h4 a {
+    color: #4c5262;
+    text-decoration: none;
+}
 
 header .menu_side .playlist h4:hover{
     color: #fff;
@@ -108,7 +112,7 @@ header .menu_side .playlist h4 .bi{
     display: none;
 }
 
-header .menu_side .playlist .active{
+header .menu_side .playlist .active a {
     color: #36e2ec;
 }
 
@@ -497,8 +501,7 @@ header .song_side::before{ /*Hòa -1 dòng*/
 header .song_side nav {
     width: 90%;
     height: 10%;
-    /* border: 1px solid #fff; */
-    
+    /* border: 1px solid #fff; */   
     display: flex;
     align-items: center;
     justify-content: space-between;
